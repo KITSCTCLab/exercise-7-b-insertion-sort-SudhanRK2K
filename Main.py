@@ -5,7 +5,7 @@ def insertionSort(array) -> List[int]:
   for i in range(n):
     u=array[i]
     j=i-1
-    while(j>=0 && array[j]>u):
+    while(j>=0 and array[j]>u):
       array[j+1] = array[j]
       j=j-1
     array[j+1] = u
